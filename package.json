@@ -2,6 +2,7 @@
   "name": "wifi-server",
   "version": "0.0.1",
   "main": "app.ts",
+  "type": "module",
   "scripts": {
     "start": "node dist/api/index.js",
     "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
